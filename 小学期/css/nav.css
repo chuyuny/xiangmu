@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.nav{
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	left:0;
+	border-bottom: 1px solid gainsboro;
+	text-align: center;
+	
+}
+.search{
+	position: absolute;
+	top: auto;
+	left: 1005px;
+}
+.nav ul li {
+	list-style: none;
+	float: left;
+	padding: 10px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+.nav ul{
+	position: absolute;
+	top: auto;
+	left: 50px;
+}
+.search1{
+	width: 447px;
+	height: 30px;
+	position: relative;
+	top: -7px;
+	background-color:#F5F5F5 ;
+}
+.log-in{
+	width: 65px;
+	height: 30px;
+	padding: 10px;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid gainsboro;
+	border-radius: 2px;
+	font-size: 15px;
+	line-height: 0;
+	position: relative;
+	top: -5px;
+}
+.enroll{
+	width: 65px;
+	height: 30px;
+	padding: 10px;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid gainsboro;
+	border-radius: 2px;
+	font-size: 15px;
+	line-height: 0;
+	position: relative;
+	top: -5px;
+}
+#more-div{
+	display: none;
+	width: 310px;
+	height: 274px;
+	background-color: white;
+	line-height: 0px;
+	position: relative;
+	top: 5px;
+	left: 160px;
+	border:1px solid gray;
+	box-shadow: #F5F5F4;
+	border-radius: 8px;
+		
+}
+.inner{
+	background-color: #FFFFFF;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #000000;
+	/*旋转小方块并调整位置形成尖角*/
+	position: relative;
+	left: 145px;
+	top: -7px;
+	transform: rotate(45deg);
+	border-right: 0px;
+	border-bottom:0px;
+}
+.list1 a{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+}
+#more-div ul li{
+	float: left;
+	list-style: none;
+	margin: 20px;
+}
+.list2 li{
+	width: 100px;
+	line-height: 1px;
+	float: left;
+}
+.list2 li a{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: black;
+}
+.list3{
+	position: relative;
+	top: -8px;
+	left: 30px;
+	float: left;
+}
+.list3 a{
+	color: gainsboro;
+	text-decoration: none;
+	font-size: 14px;
+}

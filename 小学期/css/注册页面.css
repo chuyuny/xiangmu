@@ -1,0 +1,137 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: url("../imgs/bg.jpg");
+    background-size: cover;
+}
+.segment{
+    text-align: center;
+    width:670px;
+    height: 700px;
+    position: relative;
+    margin: 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.header{
+    width: 570px;
+    height: 76px;
+    margin: 100px auto 40px;
+    text-align: center;
+    border-bottom: 1px solid #b9bdcf;
+}
+.header .logo{
+    margin-bottom: 40px;
+    width: 170px;
+    height: 60px;
+    background-image: url(../imgs/logo1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+h3{
+
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: absolute;
+    left:156px;
+    top: 215px;
+    font-family:宋体;
+    color: #5c5c5c;
+    /*font-weight:normal;*/
+}
+#signup{
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #444;
+    position: absolute;
+    left:100px;
+    top: 300px;
+
+}
+.field{
+    display: inline-block;
+    font-size: 16px;
+    min-width: 120px;
+    text-align: right;
+    margin: 0 16px 20px 0;
+}
+label{
+    display: inline-block;
+    font-size: 18px;
+    min-width: 120px;
+    text-align: right;
+    margin-right: 16px;
+    text-shadow: 2px 2px 5px white;
+}
+input{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    user-select: text;
+    display: inline-block;
+    padding: 0 10px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 1;
+    color: #777;
+    background: #FCFCFC;
+    border: 1px solid #CCC;
+
+
+}
+.field .btn{
+    font-size: 18px;
+    padding: 4px 18px;
+    margin-left: 12px;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+    text-decoration: none;
+    color: #444;
+    white-space: nowrap;
+    user-select: none;
+    text-align: center;
+}
+.field.sum{
+    width: 406px;
+    height: 16px;
+    font-size: 12px;
+
+
+}
+.field label.checkbox{
+
+    font-size:12px;
+    padding: 0;
+}
+.field #agree{
+    width: 13px;
+    height: 13px;
+    padding: 0;
+
+}
+.field .submit{
+    background: #F2F2F2;
+    border: 1px solid #D9D9D9;
+    box-shadow: none;
+    color: #BBB;
+    text-shadow: none;
+    cursor: default;
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.field.sub{
+    padding:0 70px;
+    text-align: left;
+}
